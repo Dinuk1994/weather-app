@@ -1,4 +1,4 @@
-// App.js
+
 import React from 'react';
 import Main from './MainPage/Main';
 

@@ -1,0 +1,11 @@
+.body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+    height: 600px;
+    width: 25%;
+    border-radius: 50px;
+    
+}

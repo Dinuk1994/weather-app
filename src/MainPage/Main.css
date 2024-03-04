@@ -12,14 +12,25 @@
     z-index: -1;
 }
 
-.content{
+.topic{
     margin-top: 25px;
     margin-left: 30px;
     font-size: 40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
-    
-    
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.div-content{
+    display: flex;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .icon{
