@@ -10,20 +10,30 @@ const Detail = () => {
     AOS.init({ once: true });
   }, []);
 
+const handleSubmit = () =>{
+  alert("Hello")
+}
+
+
   return (
     <div>
-      <div className='container' data-aos="zoom-in-down">
-        <label className='detail' htmlFor="">
-          <div className="input-container">
-            <div>
-              <div className="input-group mt-3">
-                <input type="text" className="form-control rounded-5" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                  <button className="btn btn-outline-secondary bg-white rounded-5 " type="button" id="button-addon2"><i className="bi bi-search"></i></button>
+      <form onSubmit={handleSubmit}>
+        <div className='container' data-aos="zoom-in-down">
+          <label className='detail' htmlFor="">
+            <div className="container col-9">
+              <div className="input-group mt-3 ">
+                <input type="text" className="form-control rounded-5" placeholder="Enter place" aria-label="Enter place" aria-describedby="button-addon2" />
+                <button className="btn btn-outline-secondary bg-white rounded-5 " type="submit" id="button-addon2"><i className="bi bi-search"></i></button>
               </div>
             </div>
-          </div>
-        </label>
-      </div>
+
+            <div>
+              <label htmlFor="" className='text'>23 C</label>
+
+            </div>
+          </label>
+        </div>
+      </form>
     </div>
   );
 };
