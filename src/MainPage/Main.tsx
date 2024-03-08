@@ -6,7 +6,7 @@ import Detail from '../Contents/Detail';
 
 const Main = () => {
     return (
-        <div className='flex container bg-image'>
+        <div className='flex bg-image'>
             <div className=''>
                 <div className='topic'>
                     <img src={Icon} alt="" className='icon' />

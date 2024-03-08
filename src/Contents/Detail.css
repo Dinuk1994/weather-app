@@ -1,11 +1,45 @@
-.body{
+body {
     display: flex;
     justify-content: center;
     justify-items: center;
     margin-top: 25px;
-    background: linear-gradient(to bottom, #87CEEB, #1E90FF);
-    height: 600px;
-    width: 25%;
     border-radius: 50px;
-    
+}
+
+.detail {
+    display: flex;
+    background: linear-gradient(to bottom, hsl(197, 90%, 20%), #86b5e4);
+    margin-top: 25px;
+    width: 400px;
+    height: 600px;
+    justify-items: center;
+    justify-self: center;
+    border-radius: 50px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.input-container {
+    position: relative;
+  }
+  
+
+.text{
+    width: 50%; 
+    height:30px;
+    font-size: small;
+    padding: 6px 6px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding-left: 30px;
+}
+
+
+.search{
+    background: #ffffff;
+    height: 15px ;
+    margin-top: 25px !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
 }
