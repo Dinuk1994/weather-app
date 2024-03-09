@@ -2,7 +2,7 @@ import React from 'react';
 import '../MainPage/Main.css';
 
 import Icon from '../assets/Photos/47314_weather_icon.png';
-import Detail from '../Contents/Detail';
+import Detail from '../Contents/Detail/Detail';
 
 const Main = () => {
     return (
@@ -13,7 +13,7 @@ const Main = () => {
                     <label htmlFor="">Real Weather</label>
                 </div>
                 <div className='div-content'>
-                    <Detail />
+                    <Detail/>
                 </div>
             </div>
         </div>
